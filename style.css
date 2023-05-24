@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+body {
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 31px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(17, 193, 223)
+}
+
+.nav {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 20px;
+}
+
+.nav:hover {
+    text-shadow: 0px 0px 0.5px rgb(0, 0, 0);
+    text-decoration: underline rgb(12, 192, 223);
+}
+
+#logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    height: 70px;
+}
+
+#photograph {
+    margin-left: 0px;
+    border-bottom-right-radius: 10%;
+    height: 750px;
+}
+
+#birth {
+    height: 120px;
+}
+
+#content {
+    display: flex;
+}
+
+#info {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+#heading {
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+
+#bio {
+    font-size: x-large;
+    padding-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#bio_whole {
+    display: flex;
+}
+
+.birth_place {
+    height: 225px;
+    opacity: 90%;
+    border-radius: 7%;
+}
+
+.birth_place_2 {
+    height: 340px;
+    border-radius: 7%;
+}
+
+.Albert {
+    width: 325px;
+    border-radius: 7%;
+    padding-left: 10px;
+}
+
+.book_photos {
+    height: 300px;
+    border-radius: 8%;
+}
+
+#books {
+    display: flex;
+}
+
+.block {
+    padding-right: 40px;
+}
+
+.sub_heading {
+    padding: 20px;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sub_content {
+    padding-left: 18%;
+    padding-right: 18%;
+    font-size: medium;
+}
+
+.sub_images_right {
+    float: right;
+    padding-left: 10px;
+}
+
+.sub_images_left {
+    float: left;
+    padding-right: 10px;
+}
+
+.image {
+    float: left;
+    padding-right: 20px;
+}
+
+* {
+    font-family: Poppins;
+}
+
+fieldset {
+    border-radius: 30px;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(17, 193, 225);
+    padding-block: 20px;
+    padding-left: 20px;
+}
+
+#field {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#name{
+    font-size: x-large;
+}
